@@ -35,3 +35,46 @@ input/*.xlsx
 input/*.xls
 input/*.xlsm
 input/*.xlsb
+
+# Архивы и резервные копии
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Секреты и локальные настройки.
+# Демонстрационные шаблоны .env.example остаются в репозитории.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.*.example
+secrets.json
+credentials.json
+credentials.txt
+local.settings.json
+id_rsa
+id_dsa
+id_ecdsa
+id_ecdsa_sk
+id_ed25519
+id_ed25519_sk
+id_xmss
+*.pem
+*.key
+*.ppk
