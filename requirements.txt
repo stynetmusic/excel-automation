@@ -1,0 +1,5 @@
+# Проверено на Python 3.14.2. Сама программа требует Python 3.11+.
+# et-xmlfile в код не импортируется: его ставит openpyxl.
+openpyxl==3.1.5
+et-xmlfile==2.0.0
+pytest==9.2.0

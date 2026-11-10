@@ -1,0 +1,37 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python и тестов
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Журналы и временные файлы
+logs/*.log
+logs/*.log.*
+*.tmp
+*.partial
+~$*
+
+# Отчёт, который создаёт программа
+output/*.xlsx
+output/*.xls
+output/*.partial
+
+# Чужие книги, положенные в input вручную.
+# Учебный пример source_sales.xlsx в репозиторий входит.
+input/*.xlsx
+!input/source_sales.xlsx
+input/*.xls
+input/*.xlsm
+input/*.xlsb
